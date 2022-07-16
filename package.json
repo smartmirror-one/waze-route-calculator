@@ -1,0 +1,16 @@
+{
+  "name": "@smartmirror.one/waze-route-calculator",
+  "main": "dist/WazeRouteCalculator.js",
+  "types": "dist/WazeRouteCalculator.d.ts",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "ts-node-dev src/example.ts",
+    "lint": "eslint src/**/*.ts",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}

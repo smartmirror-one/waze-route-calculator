@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/WazeRouteCalculator.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

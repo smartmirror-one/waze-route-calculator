@@ -1,0 +1,14 @@
+# Local files
+.vscode
+.config
+node_modules
+*.env
+*.log
+
+# Build Artifacts
+coverage
+junit.xml
+*.zip
+
+# MacOS
+.DS_Store
